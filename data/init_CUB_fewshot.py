@@ -12,7 +12,7 @@ from utils import util
 with open('../config.yml', 'r') as f:
     config = yaml.safe_load(f)
 
-data_path = os.path.abspath(config['data_path'])
+data_path = os.path.abspath(config['data_path2'])
 origin_path = os.path.join(data_path,'CUB_200_2011')
 raw_path = os.path.join(data_path,'CUB_fewshot_raw')
 cropped_path = os.path.join(data_path,'CUB_fewshot_cropped')
